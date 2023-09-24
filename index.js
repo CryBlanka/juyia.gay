@@ -36,11 +36,7 @@ const ART = [
 ]
 
 const SEARCHES = [
-  'jshop',
-  'ptoszek',
-  'ptak',
-  'kanarek',
-  'jaczup'
+  'juyia'
 ]
 
 const VIDEOS = [
@@ -49,12 +45,12 @@ const VIDEOS = [
 
 const FILE_DOWNLOADS = [
   'juyia.png',
-  'Kowalski Porno.mp4',
-  'YOUNG MULTI - TOAST (prod. GeezyBeatz) [Official Video] (1).mp4',
-  'YOUNG MULTI - ZIOMECZKI ZIOMY [Official Video] (1) (1).mp4',
-  'YOUNG MULTI ft. Trill Pem - PRZEKRĘT [Official Video] (1).mp4',
-  'YOUNG MULTI - Plecak (Prod. Michał Graczyk) (1).mp4',
-  'YOUNG MULTI - BALLADA O SAMOTNOŚCI (vlone) [Official Video] (1).mp4'
+  'KowalskiPorno.mp4',
+  'YOUNGMULTI-TOASTprodGeezyBeatzOfficialVideo.mp4',
+  'YOUNGMULTI-ZIOMECZKIZIOMYOfficialVideo.mp4',
+  'YOUNGMULTIftTrillPem-PRZEKRĘTOfficialVideo.mp4',
+  'YOUNGMULTI-PlecakProdMichałGraczyk.mp4',
+  'YOUNGMULTI-BALLADAOSAMOTNOŚCIvloneOfficialVideo.mp4'
 ]
 
 const PHRASES = [
