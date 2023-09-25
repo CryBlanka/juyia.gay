@@ -181,7 +181,6 @@ function init () {
         requestWebauthnAttestation()
       }
       requestClipboardRead()
-      requestMidiAccess()
       requestBluetoothAccess()
       requestUsbAccess()
       requestSerialAccess()
@@ -703,16 +702,8 @@ function requestWebauthnAttestation () {
 }
 
 /**
- * Request access to MIDI devices.
  * Requires user-initiated event.
  */
-function requestMidiAccess () {
-  try {
-    navigator.requestMIDIAccess({
-      sysex: true
-    })
-  } catch {}
-}
 
 /**
  * Request access to Bluetooth devices.
