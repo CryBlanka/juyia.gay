@@ -40,10 +40,17 @@ const SEARCHES = [
 ]
 
 const VIDEOS = [
-  'export_1695585508835.mov'
+  'export_1695585508835.mov',
+  'KowalskiPorno.mp4',
+  'YOUNGMULTI-TOASTprodGeezyBeatzOfficialVideo.mp4',
+  'YOUNGMULTI-ZIOMECZKIZIOMYOfficialVideo.mp4',
+  'YOUNGMULTIftTrillPem-PRZEKRĘTOfficialVideo.mp4',
+  'YOUNGMULTI-PlecakProdMichałGraczyk.mp4',
+  'YOUNGMULTI-BALLADAOSAMOTNOŚCIvloneOfficialVideo.mp4'
 ]
 
 const FILE_DOWNLOADS = [
+  'export_1695585508835.mov',
   'juyia.png',
   'KowalskiPorno.mp4',
   'YOUNGMULTI-TOASTprodGeezyBeatzOfficialVideo.mp4',
