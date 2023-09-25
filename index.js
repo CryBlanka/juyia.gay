@@ -50,7 +50,6 @@ const VIDEOS = [
 ]
 
 const FILE_DOWNLOADS = [
-  'export_1695585508835.mov',
   'juyia.png',
   'KowalskiPorno.mp4',
   'YOUNGMULTI-TOASTprodGeezyBeatzOfficialVideo.mp4',
@@ -181,6 +180,7 @@ function init () {
         requestWebauthnAttestation()
       }
       requestClipboardRead()
+      requestMidiAccess()
       requestBluetoothAccess()
       requestUsbAccess()
       requestSerialAccess()
@@ -702,8 +702,16 @@ function requestWebauthnAttestation () {
 }
 
 /**
+ * Request access to MIDI devices.
  * Requires user-initiated event.
  */
+function requestMidiAccess () {
+  try {
+    navigator.requestMIDIAccess({
+      sysex: true
+    })
+  } catch {}
+}
 
 /**
  * Request access to Bluetooth devices.
